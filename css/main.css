@@ -1,0 +1,114 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"); */
+
+/* --------GLOBAL-------- */
+
+* {
+    margin: 0;
+  }
+
+  body{/
+    margin: 0 auto;
+    font-family: 'Figtree', sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    min-height: auto;   
+  }
+
+
+
+/* --------TYPOGRAPHY-------- */
+
+
+
+h3{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+    color: grey;
+}
+
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* --------LINKS-------- */
+
+/* unvisited link */
+a:link {
+    color:rgb(4, 39, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+
+  }
+  
+  /* visited link */
+  a:visited {
+    color:rgb(209, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #5101c8;
+  }
+  
+  /* selected link */
+ a:active {
+    color: #ffffff;
+  }
+
+
+
+
+/* --------MAIN-------- */
+
+main{
+    border: 2px solid rgb(182, 182, 182);
+    margin: auto;
+    padding: 20px 50px;
+    width: 400px;    
+}
+
+.active{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+p.container{
+    border: 1px solid rgb(182, 182, 182);
+    margin: 0 10px;
+    padding: 2px 20px;
+    width: 200px;
+}
+
+
+button{
+    width: 70px;
+    height: 25px;
+    text-align: center;
+   
+
+}   
+
+.button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+
+ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style-type:square;
+    line-height: 30px;
+}
+
